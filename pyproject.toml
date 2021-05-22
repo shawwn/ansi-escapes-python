@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ansi-escapes"
+version = "0.1.0"
+readme = "README.md"
+homepage = "https://github.com/shawwn/ansi-escapes-python"
+description = "ANSI escape codes for manipulating the terminal"
+authors = ["Shawn Presser"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["setuptools", "poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.urls]
+"Shawn's Website" = "https://www.shawwn.com"
+"Support me on Patreon" = "https://www.patreon.com/shawwn"
+"@theshawwn on Twitter" = "https://www.twitter.com/theshawwn"
+"sillysaurusx on Hacker News" = "https://news.ycombinator.com/threads?id=sillysaurusx"
