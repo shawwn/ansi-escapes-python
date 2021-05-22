@@ -11,8 +11,6 @@ A port of the Node.js package [`ansi-escapes`](https://github.com/sindresorhus/a
 python3 -m pip install -U ansi-escapes
 ```
 
-(That strange-looking setup command is because I've found it to be the most reliable. The `pip` command often aliases to python 2, and `pip3` often installs to the wrong Python package directory.)
-
 ## Usage
 
 ```py
